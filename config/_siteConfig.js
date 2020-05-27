@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
+  siteName: 'Shinggo',
   tagline: 'A Nuxt.js Theme for Netlify CMS',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
@@ -19,7 +19,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
+      name: 'About!',
       link: '/about'
     },
     {
@@ -33,11 +33,6 @@ export default {
     {
       name: 'Github Repo',
       link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
       target: '_blank'
     }
   ],
@@ -97,7 +92,7 @@ export default {
     imageDimensions: null, // See card.imageDimensions (can be unique for posts if set here)
     displayAuthor: true,
     date: {
-      display: true
+      display: false
     },
     perRow: 3,
     perPage: 6
